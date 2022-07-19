@@ -2414,7 +2414,7 @@ function mob_class:do_states(dtime)
 			self:set_animation("stand")
 		else
 			self:set_velocity(self.run_velocity)
-			self:set_animation("walk")
+			self:set_animation("run")
 		end
 
 	-- attack routines (explode, dogfight, shoot, dogshoot)
